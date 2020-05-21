@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DestinationInspire_androidExam</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="intro_text">Swipe edge to exit the map.</string>
+</resources>
