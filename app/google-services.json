@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "973947564200",
+    "firebase_url": "https://velvety-byway-277910.firebaseio.com",
+    "project_id": "velvety-byway-277910",
+    "storage_bucket": "velvety-byway-277910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973947564200:android:811b14e6c89981b490d29d",
+        "android_client_info": {
+          "package_name": "com.example.destinationinspire_androidexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973947564200-h4s3vrrckbb5kr3l0pghphvflivhn513.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.destinationinspire_androidexam",
+            "certificate_hash": "8bbc6194407625666d4da1014fd946ec6255bc4a"
+          }
+        },
+        {
+          "client_id": "973947564200-co76ld699ftfm6tirdffckntdib7oj1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEUnZ_0e3sdEblh1cdElM9m8p3WSi0hUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973947564200-co76ld699ftfm6tirdffckntdib7oj1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

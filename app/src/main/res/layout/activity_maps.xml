@@ -1,21 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChoiceActivity">
+    android:background="@drawable/mainactbck"
+    tools:context=".MapsActivity">
+
+    <Button
+        android:id="@+id/googleSrchBtn"
+        android:layout_width="353dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/backgroundimg_maps"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="googleSearchBtnPressed"
+        android:text="Interesting, search on google!"
+        android:textColor="#43A047"
+        android:textStyle="bold" />
 
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="353dp"
         android:layout_height="317dp"
+        android:layout_above="@+id/button"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="29dp"
         android:layout_marginTop="167dp"
+        android:layout_marginBottom="22dp"
         tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="352dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="177dp"
+        android:background="@drawable/choiceact"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="notForMeBtnPressed"
+        android:text="Naaah, that's not for me"
+        android:textColor="#D81B1B"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="You should explore"
+        android:textColor="#FB8C00"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cityTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
 
 </RelativeLayout>

@@ -14,12 +14,12 @@ public class ChoiceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice);
+
     }
 
     public void selectCntryPressed(View view){
-        // toDO
-        // Intent intent = new Intent(this, CLASSTOHANDLESELECTING);
-        // STARTACTIVITY
+        Intent intent = new Intent(this, ChooseCountryActivity.class);
+        startActivity(intent);
 
     }
 

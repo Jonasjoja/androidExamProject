@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">DestinationInspire_androidExam</string>
+    <string name="app_name">Destination Inspire! By Jonas Hansen</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="intro_text">Swipe edge to exit the map.</string>
+
+    <string name="facebook_app_id">2513356688995081</string>
+    <string name="fb_login_protocol_scheme">fb2513356688995081</string>
+
 </resources>

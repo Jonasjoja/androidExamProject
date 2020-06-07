@@ -3,42 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/choiceact"
     tools:context=".ChoiceActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="62dp"
-        android:fontFamily="sans-serif"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Make your choice!"
+        android:textColor="#FF8A65"
+        android:textSize="25dp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/selectCntryBtn"
-        android:layout_width="361dp"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="153dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:background="#FFF3E0"
+        android:fontFamily="sans-serif-smallcaps"
         android:onClick="selectCntryPressed"
-        android:text="I want to select a country!" />
+        android:text="I want to select a country"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/feelingLuckyBtn"
-        android:layout_width="361dp"
+        android:layout_width="383dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="234dp"
+        android:layout_below="@+id/selectCntryBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="#B9F6CA"
+        android:fontFamily="sans-serif-smallcaps"
         android:onClick="feelingLckyPressed"
-        android:text="I'm feeling lucky" />
+        android:text="I'm feeling lucky"
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
